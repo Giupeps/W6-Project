@@ -1,0 +1,33 @@
+@import "./variables";
+
+@mixin primaryBox {
+  background-color: $primaryBackground;
+  text-align: center;
+
+  h1,
+  h2 {
+    color: $headings-color;
+    text-shadow: black;
+  }
+  p {
+    color: $text-color;
+  }
+
+  button {
+    background-color: $headings-color;
+    color: black;
+  }
+}
+
+@mixin darkBox {
+  background-color: $secondaryBackground;
+  text-align: center;
+  h2 {
+    color: black;
+  }
+
+  button {
+    background-color: $headings-color;
+    color: black;
+  }
+}

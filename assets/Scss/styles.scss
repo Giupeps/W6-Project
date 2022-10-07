@@ -1,6 +1,42 @@
 @import "./variables";
 @import "../../node_modules/bootstrap/scss/bootstrap.scss";
+@import "./mixin";
+
+body {
+  background-color: #fff9ec;
+}
 
 .box {
-  background-color: $primaryBackground;
+  @include primaryBox;
+  a {
+    color: $text-color;
+  }
+
+  img {
+    width: 30vw;
+    border-radius: 50%;
+    margin-bottom: 5vh;
+  }
+}
+
+#cover-container {
+  background-image: url(../img/cover.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  background-repeat: no-repeat;
+  background-blend-mode: soft-light;
+}
+
+#carousel {
+  button {
+    background-color: $primaryBackground;
+  }
+
+  .container {
+    padding: {
+      top: 2vh;
+      right: 5vh;
+    }
+  }
 }

@@ -112,6 +112,7 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
   margin-bottom: 0.5rem;
   font-weight: 500;
   line-height: 1.2;
+  color: white;
 }
 
 h1, .h1 {
@@ -5595,7 +5596,7 @@ textarea.form-control-lg {
   --bs-popover-header-padding-x: 1rem;
   --bs-popover-header-padding-y: 0.5rem;
   --bs-popover-header-font-size: 1rem;
-  --bs-popover-header-color: ;
+  --bs-popover-header-color: white;
   --bs-popover-header-bg: #f0f0f0;
   --bs-popover-body-padding-x: 1rem;
   --bs-popover-body-padding-y: 1rem;
@@ -10771,6 +10772,49 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+body {
+  background-color: #fff9ec;
+}
+
 .box {
-  background-color: #edede9;
+  background-color: #5f2d3a;
+  text-align: center;
+}
+.box h1, .box .h1,
+.box h2,
+.box .h2 {
+  color: white;
+  text-shadow: black;
+}
+.box p {
+  color: #c5c4b6;
+}
+.box button {
+  background-color: white;
+  color: black;
+}
+.box a {
+  color: #c5c4b6;
+}
+.box img {
+  width: 30vw;
+  border-radius: 50%;
+  margin-bottom: 5vh;
+}
+
+#cover-container {
+  background-image: url(../img/cover.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  background-repeat: no-repeat;
+  background-blend-mode: soft-light;
+}
+
+#carousel button {
+  background-color: #5f2d3a;
+}
+#carousel .container {
+  padding-top: 2vh;
+  padding-right: 5vh;
 }
