@@ -1,5 +1,10 @@
 @import "./variables";
 
+@mixin headingsFont {
+  font-family: $kanitFont;
+  font-weight: bold;
+}
+
 @mixin primaryBox {
   background-color: $primaryBackground;
   text-align: center;
@@ -13,7 +18,8 @@
     margin-bottom: 5vh;
   }
 
-  h1 {
+  h1,
+  h5 {
     color: $headings-color;
     text-shadow: black;
   }
@@ -23,18 +29,19 @@
 }
 
 @mixin coverImage {
-  background-image: url(../img/cover.jpg);
+  background-image: url(../img/cover2.jpg);
   background-size: cover;
   background-attachment: fixed;
   position: relative;
   background-repeat: no-repeat;
   background-blend-mode: soft-light;
-  background-position-x: -8vh;
+  box-shadow: inset 0px 0px 0px 5000px rgba(0, 0, 0, 0.4);
 }
 
 @mixin buttons {
   background-color: $text-color;
   color: black;
+  box-shadow: none;
 }
 
 @mixin h2Property {

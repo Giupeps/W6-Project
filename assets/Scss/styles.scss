@@ -6,12 +6,22 @@ body {
   background-color: #fff9ec;
 }
 
-.dropdown button {
+button {
   @include buttons;
+}
+
+h1,
+h2 {
+  @include headingsFont;
 }
 
 h2 {
   @include h2Property;
+}
+
+p,
+nav a {
+  font-family: $kanitFont;
 }
 
 .box {

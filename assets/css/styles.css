@@ -1,10 +1,12 @@
 @charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 /*!
  * Bootstrap  v5.2.2 (https://getbootstrap.com/)
  * Copyright 2011-2022 The Bootstrap Authors
  * Copyright 2011-2022 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+@import url("https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -10776,15 +10778,28 @@ body {
   background-color: #fff9ec;
 }
 
-.dropdown button {
+button {
   background-color: #bb8396;
   color: black;
+  box-shadow: none;
+}
+
+h1, .h1,
+h2,
+.h2 {
+  font-family: "kanit", 400;
+  font-weight: bold;
 }
 
 h2, .h2 {
   text-align: center;
   color: #bb8396;
   margin-top: 10vh;
+}
+
+p,
+nav a {
+  font-family: "kanit", 400;
 }
 
 .box {
@@ -10799,7 +10814,9 @@ h2, .h2 {
   border-radius: 50%;
   margin-bottom: 5vh;
 }
-.box h1, .box .h1 {
+.box h1, .box .h1,
+.box h5,
+.box .h5 {
   color: white;
   text-shadow: black;
 }
@@ -10812,13 +10829,13 @@ h2, .h2 {
 }
 
 #cover-container {
-  background-image: url(../img/cover.jpg);
+  background-image: url(../img/cover2.jpg);
   background-size: cover;
   background-attachment: fixed;
   position: relative;
   background-repeat: no-repeat;
   background-blend-mode: soft-light;
-  background-position-x: -8vh;
+  box-shadow: inset 0px 0px 0px 5000px rgba(0, 0, 0, 0.4);
 }
 
 #carousel .carousel-item {
@@ -10833,6 +10850,7 @@ h2, .h2 {
 #sponsor a {
   background-color: #bb8396;
   color: black;
+  box-shadow: none;
 }
 #sponsor img {
   width: 25vh;
