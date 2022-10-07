@@ -6,7 +6,7 @@ body {
   background-color: #fff9ec;
 }
 
-button {
+.dropdown button {
   @include buttons;
 }
 
@@ -16,15 +16,6 @@ h2 {
 
 .box {
   @include primaryBox;
-  a {
-    color: $text-color;
-  }
-
-  img {
-    width: 40vw;
-    border-radius: 50%;
-    margin-bottom: 5vh;
-  }
 }
 
 #presentation {
@@ -46,9 +37,8 @@ h2 {
   a {
     @include buttons;
   }
-}
-
-.card {
-  background-color: transparent;
-  border: none;
+  img {
+    width: 25vh;
+    margin: 2vh auto;
+  }
 }

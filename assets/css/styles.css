@@ -10776,36 +10776,35 @@ body {
   background-color: #fff9ec;
 }
 
-button {
-  background-color: #d6ccc2;
+.dropdown button {
+  background-color: #bb8396;
   color: black;
 }
 
 h2, .h2 {
   text-align: center;
-  color: #c5c4b6;
+  color: #bb8396;
   margin-top: 10vh;
-  margin-bottom: 4vh;
 }
 
 .box {
   background-color: #591826;
   text-align: center;
 }
+.box a {
+  color: #bb8396;
+}
+.box img {
+  width: 35vw;
+  border-radius: 50%;
+  margin-bottom: 5vh;
+}
 .box h1, .box .h1 {
   color: white;
   text-shadow: black;
 }
 .box p {
-  color: #c5c4b6;
-}
-.box a {
-  color: #c5c4b6;
-}
-.box img {
-  width: 40vw;
-  border-radius: 50%;
-  margin-bottom: 5vh;
+  color: #bb8396;
 }
 
 #presentation {
@@ -10828,16 +10827,14 @@ h2, .h2 {
 
 #sponsor {
   text-align: center;
-  color: #c5c4b6;
+  color: #bb8396;
   margin-top: 10vh;
-  margin-bottom: 4vh;
 }
 #sponsor a {
-  background-color: #d6ccc2;
+  background-color: #bb8396;
   color: black;
 }
-
-.card {
-  background-color: transparent;
-  border: none;
+#sponsor img {
+  width: 25vh;
+  margin: 2vh auto;
 }
