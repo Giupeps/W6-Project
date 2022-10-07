@@ -1,0 +1,22 @@
+{
+  "name": "w6-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass:watch": "sass --no-source-map assets/scss/styles.scss assets/css/styles.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Giupeps/W6-Project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Giupeps/W6-Project/issues"
+  },
+  "homepage": "https://github.com/Giupeps/W6-Project#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.2"
+  }
+}
