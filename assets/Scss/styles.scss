@@ -36,15 +36,8 @@ h2 {
 }
 
 #carousel {
-  button {
-    background-color: $primaryBackground;
-  }
-
-  .container {
-    padding: {
-      top: 2vh;
-      right: 5vh;
-    }
+  .carousel-item {
+    height: 45vh;
   }
 }
 
@@ -53,4 +46,9 @@ h2 {
   a {
     @include buttons;
   }
+}
+
+.card {
+  background-color: transparent;
+  border: none;
 }

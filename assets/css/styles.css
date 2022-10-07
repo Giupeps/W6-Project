@@ -10784,6 +10784,7 @@ button {
 h2, .h2 {
   text-align: center;
   color: #c5c4b6;
+  margin-top: 10vh;
   margin-bottom: 4vh;
 }
 
@@ -10821,20 +10822,22 @@ h2, .h2 {
   background-position-x: -8vh;
 }
 
-#carousel button {
-  background-color: #591826;
-}
-#carousel .container {
-  padding-top: 2vh;
-  padding-right: 5vh;
+#carousel .carousel-item {
+  height: 45vh;
 }
 
 #sponsor {
   text-align: center;
   color: #c5c4b6;
+  margin-top: 10vh;
   margin-bottom: 4vh;
 }
 #sponsor a {
   background-color: #d6ccc2;
   color: black;
+}
+
+.card {
+  background-color: transparent;
+  border: none;
 }

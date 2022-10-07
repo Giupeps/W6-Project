@@ -31,5 +31,8 @@
 @mixin h2Property {
   text-align: center;
   color: $text-color;
-  margin-bottom: 4vh;
+  margin: {
+    top: 10vh;
+    bottom: 4vh;
+  }
 }
