@@ -6,6 +6,14 @@ body {
   background-color: #fff9ec;
 }
 
+button {
+  @include buttons;
+}
+
+h2 {
+  @include h2Property;
+}
+
 .box {
   @include primaryBox;
   a {
@@ -13,19 +21,18 @@ body {
   }
 
   img {
-    width: 30vw;
+    width: 40vw;
     border-radius: 50%;
     margin-bottom: 5vh;
   }
 }
 
+#presentation {
+  background-color: transparent;
+}
+
 #cover-container {
-  background-image: url(../img/cover.jpg);
-  background-size: cover;
-  background-attachment: fixed;
-  position: relative;
-  background-repeat: no-repeat;
-  background-blend-mode: soft-light;
+  @include coverImage;
 }
 
 #carousel {
@@ -38,5 +45,12 @@ body {
       top: 2vh;
       right: 5vh;
     }
+  }
+}
+
+#sponsor {
+  @include h2Property;
+  a {
+    @include buttons;
   }
 }

@@ -4,30 +4,32 @@
   background-color: $primaryBackground;
   text-align: center;
 
-  h1,
-  h2 {
+  h1 {
     color: $headings-color;
     text-shadow: black;
   }
   p {
     color: $text-color;
   }
-
-  button {
-    background-color: $headings-color;
-    color: black;
-  }
 }
 
-@mixin darkBox {
-  background-color: $secondaryBackground;
-  text-align: center;
-  h2 {
-    color: black;
-  }
+@mixin coverImage {
+  background-image: url(../img/cover.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  background-repeat: no-repeat;
+  background-blend-mode: soft-light;
+  background-position-x: -8vh;
+}
 
-  button {
-    background-color: $headings-color;
-    color: black;
-  }
+@mixin buttons {
+  background-color: $secondaryBackground;
+  color: black;
+}
+
+@mixin h2Property {
+  text-align: center;
+  color: $text-color;
+  margin-bottom: 4vh;
 }

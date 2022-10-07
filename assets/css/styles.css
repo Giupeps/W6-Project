@@ -10776,30 +10776,39 @@ body {
   background-color: #fff9ec;
 }
 
+button {
+  background-color: #d6ccc2;
+  color: black;
+}
+
+h2, .h2 {
+  text-align: center;
+  color: #c5c4b6;
+  margin-bottom: 4vh;
+}
+
 .box {
-  background-color: #5f2d3a;
+  background-color: #591826;
   text-align: center;
 }
-.box h1, .box .h1,
-.box h2,
-.box .h2 {
+.box h1, .box .h1 {
   color: white;
   text-shadow: black;
 }
 .box p {
   color: #c5c4b6;
 }
-.box button {
-  background-color: white;
-  color: black;
-}
 .box a {
   color: #c5c4b6;
 }
 .box img {
-  width: 30vw;
+  width: 40vw;
   border-radius: 50%;
   margin-bottom: 5vh;
+}
+
+#presentation {
+  background-color: transparent;
 }
 
 #cover-container {
@@ -10809,12 +10818,23 @@ body {
   position: relative;
   background-repeat: no-repeat;
   background-blend-mode: soft-light;
+  background-position-x: -8vh;
 }
 
 #carousel button {
-  background-color: #5f2d3a;
+  background-color: #591826;
 }
 #carousel .container {
   padding-top: 2vh;
   padding-right: 5vh;
+}
+
+#sponsor {
+  text-align: center;
+  color: #c5c4b6;
+  margin-bottom: 4vh;
+}
+#sponsor a {
+  background-color: #d6ccc2;
+  color: black;
 }
