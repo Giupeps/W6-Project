@@ -10775,7 +10775,7 @@ textarea.form-control-lg {
   }
 }
 body {
-  background-color: #fff9ec;
+  background-color: #d6ccc2;
   overflow-x: hidden;
 }
 
@@ -10848,12 +10848,19 @@ nav a {
   color: #bb8396;
   margin-top: 10vh;
 }
-#sponsor a {
-  background-color: #bb8396;
-  color: black;
-  box-shadow: none;
-}
 #sponsor img {
   width: 25vh;
   margin: 2vh auto;
+}
+#sponsor .container-fluid, #sponsor .container-sm, #sponsor .container-md, #sponsor .container-lg, #sponsor .container-xl, #sponsor .container-xxl {
+  background-color: #591826;
+}
+
+footer {
+  font-family: "kanit", 400;
+  font-weight: bold;
+  background-color: #591826;
+  color: #bb8396;
+  text-align: center;
+  padding-bottom: 4vh;
 }

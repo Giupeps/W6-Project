@@ -3,7 +3,7 @@
 @import "./mixin";
 
 body {
-  background-color: #fff9ec;
+  background-color: $secondaryBackground;
   overflow-x: hidden;
 }
 
@@ -45,11 +45,22 @@ nav a {
 
 #sponsor {
   @include h2Property;
-  a {
-    @include buttons;
-  }
   img {
     width: 25vh;
     margin: 2vh auto;
+  }
+
+  .container-fluid {
+    background-color: $primaryBackground;
+  }
+}
+
+footer {
+  @include headingsFont;
+  background-color: $primaryBackground;
+  color: $text-color;
+  text-align: center;
+  padding: {
+    bottom: 4vh;
   }
 }
